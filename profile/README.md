@@ -39,12 +39,25 @@ Then `cd` into a folder you want to work in and run `holt`.
 | **[homebrew-tap](https://github.com/holt-os/homebrew-tap)** | The formula behind `brew install holt-os/tap/holt`. Nothing else to see. |
 | **[registry](https://github.com/holt-os/registry)** | Community skills that do not ship in the box, plus the `registry.json` index that `holt skill search` reads. |
 | **[holt-jobsearch](https://github.com/holt-os/holt-jobsearch)** | A job-search agent built on Holt: profile, fit score, tailored resume, cover letter, tracker. It drafts, you hit send. |
+| **[holt-benchmarks](https://github.com/holt-os/holt-benchmarks)** | Holt's scores on LongMemEval, LoCoMo and BEAM, with every answer, grade and the code to rerun them. |
+
+Running agents across a team? **[Holt Teams](https://productsdecoded.com/holt/teams)** is governed, self-hosted shared memory built on the same engine. It is a separate product, not in this org, and I'm taking design partners.
 
 ## Memory you can open
 
 Every exchange lands in `.holt/memory/turns.jsonl` inside the folder you launched from. Holt distills durable facts from a session into a `facts.md` you can read and correct by hand, and `holt wiki` folds those facts into cross-linked Markdown that Obsidian opens as a vault. `holt graph` writes one self-contained HTML file, no server and no CDN, showing how it all connects.
 
 Recall matches by meaning once you enable the local Ollama embedding model, and falls back to word overlap if you skip it. Memory is per folder and isolated by default; `holt memory global on` opts a folder into a shared store when you want knowledge to cross over.
+
+## Memory you can check
+
+| Benchmark | Holt 0.19 |
+|---|---|
+| LongMemEval (graded by GPT-4o) | **91.2%** |
+| LoCoMo | **88.2%** |
+| BEAM, 1M tokens | **79.6%** |
+
+Every question, answer and grade is public in [holt-benchmarks](https://github.com/holt-os/holt-benchmarks), so you can check the numbers instead of trusting them.
 
 ## Docs
 
