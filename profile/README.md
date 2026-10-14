@@ -6,6 +6,7 @@
   <a href="https://github.com/holt-os/holt"><img src="https://img.shields.io/badge/repo-holt--os%2Fholt-181717?logo=github" alt="holt-os/holt"></a>
   <a href="https://www.npmjs.com/package/@holt-os/holt"><img src="https://img.shields.io/npm/v/@holt-os/holt?logo=npm&color=cb3837&label=npm" alt="npm version"></a>
   <a href="https://productsdecoded.com/holt"><img src="https://img.shields.io/badge/docs-productsdecoded.com%2Fholt-f5a623" alt="Docs"></a>
+  <a href="https://yourstory.com/cs/uploads/Vibecode30-Report-2026-1791951345453.pdf"><img src="https://img.shields.io/badge/VibeCode30%202026-winner-e8a33d" alt="VibeCode30 2026 winner"></a>
   <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license">
 </p>
 
